@@ -20,11 +20,11 @@ public class Main {
 
         figures.add(new Figure() {
                 float getArea() {
-                    return (float) (anonymousCircleRadius * 2 * Math.PI);
+                    return (float) (anonymousCircleRadius * anonymousCircleRadius * Math.PI);
                 }
 
                 float getPerimeter() {
-                    return (float) (anonymousCircleRadius * anonymousCircleRadius * Math.PI);
+                    return (float) (anonymousCircleRadius * 2 * Math.PI);
                 }
             }
         );
